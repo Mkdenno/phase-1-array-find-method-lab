@@ -1,12 +1,12 @@
 // code your solution here
 
   superbowlWin=function(record) {
-      function winnerYear(year){
+      function winners(year){
           return year.result==="W"
       }
   
-  const winner=record.find(winnerYear)
-      if(winner){
-          return winner.year;
+  const winnerYear=record.find(winners)
+      if(winnerYear){
+          return winnerYear.year;
       }}
   
